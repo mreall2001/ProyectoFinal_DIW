@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: black;
+    font-family: 'calibri';
+  }
+  
+  header {
+    background: red;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+  }
+
+  footer {
+    background: red;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+    margin-top: 100%;
+  }
+  
+  .menu {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 150px;
+    height: 50px;
+    padding: 1px;
+    margin-left: 50px;
+  
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+    display: block;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: white;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+
+  .container img{
+    width: 500px;
+    height: 300px;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+
+
+  .container div{
+    border: 3px solid red;
+    border-radius: 12px;
+    padding: 5px;
+    margin-left: 20px;
+  }
+  .container h2{
+    color: red;
+    text-align: center;
+
+  }
+
+  .container p{
+    color: white;
+  }
+
+
+
