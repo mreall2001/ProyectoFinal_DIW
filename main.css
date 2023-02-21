@@ -76,6 +76,8 @@
   .container img{
     width: 500px;
     height: 300px;
+    border-radius: 20px;
+    border:7px solid red;
   }
 
   .container{
@@ -93,13 +95,23 @@
     margin-left: 20px;
   }
   .container h2{
-    color: red;
     text-align: center;
-
+    font-size: 75px;
   }
 
+  .t-stroke {
+      color: transparent;
+      -moz-text-stroke-width: 2px;
+      -webkit-text-stroke-width: 2px;
+      -moz-text-stroke-color: red;
+      -webkit-text-stroke-color: red;
+    }
+    
   .container p{
     color: white;
+    padding: 20px;
+    font-size: 20px;
+
   }
 
 
