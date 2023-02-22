@@ -94,7 +94,7 @@
     padding: 5px;
     margin-left: 20px;
   }
-  .container h2{
+  h2{
     text-align: center;
     font-size: 75px;
   }
@@ -114,5 +114,47 @@
 
   }
 
+  .img_circuito img{
+    width: 300px;
+    height: 200px;
+  }
 
+  section p {
+    color: white;
+  }
+
+  section h3{
+    color: white;
+  }
+
+  .circuito{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border: 3px double red;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-right-style: none;
+    border-left-style: none;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  section > h2{
+    margin-top: 50px;
+  }
+
+  .titulo_circuito{
+    margin-top: 30px;
+    font-size: 40px;
+  }
+  
+
+  .info_circuito{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
 
