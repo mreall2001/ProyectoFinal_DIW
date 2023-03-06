@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
+  h1{
+    color: white;
+  }
+
   body {
     background: black;
     font-family: 'calibri';
@@ -139,6 +143,7 @@
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
+    
   }
 
   section > h2{
@@ -156,3 +161,89 @@
     margin-left: 50px;
   }
 
+  .escuderia{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    margin-left: 100px;
+    margin-top: 100px;
+     
+  }
+
+  .escuderia img{
+    width: 300px;
+    height: auto;
+  }
+
+  .escuderia p{
+    color: black;
+  }
+
+  table{
+    width: 800px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+
+
+  .escuderia_pilotos{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pilotos:hover{
+    background-color: #0d2bb1;
+    color: white;
+  }
+
+  .pilotos {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  .pilotos img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .pilotos p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 6em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #0d2bb1;
+    letter-spacing: 2px;
+    margin-top: 50px;
+  }
+  
+  .underline {
+    height: 10px;
+    background-color: #0d2bb1;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  h4{
+    font-size: 3em;
+  }
+
+
+
+  
