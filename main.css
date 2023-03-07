@@ -166,6 +166,10 @@
     justify-content: space-around;
     background-color: white;
     margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 15px;
+    border: 3px solid red;
      
   }
 
@@ -224,6 +228,11 @@
     background-color: white;
     justify-content: space-around;
     margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+    border: 3px solid red;
+    
   }
 
   .piloto_unico img {
@@ -244,5 +253,27 @@
 
   .imagen_piloto div > img{
     width: 100px;
+  }
+
+  .bio_piloto{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 15px;
+    border: 3px solid red;
+  }
+
+  .bio_piloto h1{
+    color: black;
+    text-align: center;
+    font-size: 4em;
+  }
+
+  .bio_piloto p{
+    color: #333;
+    font-size: 20px;
+    padding: 30px;
   }
   
