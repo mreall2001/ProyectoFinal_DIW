@@ -1,0 +1,24 @@
+/* Modificar los colores de cada escuderia */
+
+.pilotos:hover{
+    background-color: #c5c1c0;
+    color: #cb1730;
+  }
+  
+  h1 {
+      font-family: Arial, sans-serif;
+      font-size: 6em;
+      text-align: center;
+      color: #cb1730;
+      text-shadow: 2px 2px 4px #c5c1c0;
+      letter-spacing: 2px;
+      margin-top: 50px;
+    }
+    
+    .underline {
+      height: 10px;
+      background-color: #cb1730;
+      margin: 0 auto;
+      width: 300px;
+      margin-top: 20px;
+    }
